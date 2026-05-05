@@ -1,14 +1,14 @@
-# 💧 Water Level Monitoring System
+#  Water Level Monitoring System
 
 ![Arduino](https://img.shields.io/badge/Arduino-Uno-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 An automatic water level control system that prevents tank overflow and pump dry-running using Arduino, analog sensor, I2C LCD, and relay module.
 
-## 📸 Demo
+##  Demo
 
 
-## 🚀 Features
+##  Features
 
 - **Real-time monitoring** – 0–100% water level displayed on LCD
 - **Automatic pump control** – Stops pump at 100% full
@@ -17,7 +17,7 @@ An automatic water level control system that prevents tank overflow and pump dry
 - **Visual alerts** – Bulb/LED indicates pump status
 - **Low cost** – Built with components under $20
 
-## 🧱 Components
+##  Components
 
 | Component | Quantity |
 |-----------|----------|
@@ -30,7 +30,7 @@ An automatic water level control system that prevents tank overflow and pump dry
 | Jumper wires | 20 |
 | Breadboard | 1 |
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 
 | Arduino Pin | Connected To |
 |-------------|--------------|
@@ -42,7 +42,7 @@ An automatic water level control system that prevents tank overflow and pump dry
 | D7 | Relay IN (controls pump) |
 | D8 | Push button (internal pull-up) |
 
-## 💻 Code
+##  Code
 
 Full code available in [`WLMS.ino`](./WLMS.ino)
 
