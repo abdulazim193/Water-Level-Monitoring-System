@@ -64,7 +64,6 @@ void loop() {
     }
     else {
       // Between 21-99%: pump can be ON (auto-fill logic)
-      // You can add: digitalWrite(relayPin, HIGH); 
       // For now, it stays as is or add auto-fill:
       if (percent < 30) digitalWrite(relayPin, HIGH);  // Auto-fill when low
     }
@@ -97,7 +96,5 @@ void loop() {
   }
   
   // Optional: Auto exit manual mode after 10 seconds of no level change
-  // (add your own logic if needed)
-  
   delay(100);
 }
