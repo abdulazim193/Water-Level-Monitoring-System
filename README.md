@@ -44,7 +44,7 @@ An automatic water level control system that prevents tank overflow and pump dry
 
 ## 💻 Code
 
-Full code available in [`water_level_monitor.ino`](./water_level_monitor.ino)
+Full code available in [`WLMS.ino`](./WLMS.ino)
 
 ### Key Logic
 
