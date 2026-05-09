@@ -46,14 +46,18 @@ An automatic water level control system that prevents tank overflow and pump dry
 
 Full code available in [`WLMS.ino`](./WLMS.ino)
 
-Find out the report here: (https://drive.google.com/file/d/1zJHLlAWSnDFBgkaTA169SfYdsQaFEZsZ/view?usp=drive_link)
+Find out the report here: ( https://drive.google.com/file/d/1zJHLlAWSnDFBgkaTA169SfYdsQaFEZsZ/view?usp=sharing )
 
 ### Key Logic
 
 ```cpp
+
 // Map sensor value (0-1023) to percentage
+
 int percent = map(analogRead(sensorPin), 0, 1023, 0, 100);
 
 // Auto control
+
 if (percent >= 100) digitalWrite(relayPin, LOW);  // Full -> OFF
+
 if (percent <= 20) digitalWrite(relayPin, LOW);   // Low -> OFF
